@@ -1,0 +1,15 @@
+Privacy policy for learn.dvorak.nl
+----------------------------------
+
+* I have standard access logs that include your IP address.
+
+* And Piwik (open source web analytics), that will hand you a tracking cookie.
+  * No tracking cookie if your browser is configured to use "Do Not Track".
+
+* Your IP address will not be disclosed or sold to anyone.
+  * Except if there's a legal obligation.
+
+* The site uses local storage to store your preferences.
+
+* I use Google Adsense for advertisements, and they use cookies to track you.
+  * Their privacy policy is at http://www.google.com/privacypolicy.html
