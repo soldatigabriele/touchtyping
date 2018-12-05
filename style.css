@@ -1,6 +1,5 @@
 
 body {
-    background: #f0f070;
     background: #2f2f2f;
     margin: 0;
     padding: 0;
@@ -130,9 +129,9 @@ dd {
     letter-spacing: 2px;
 }
 #input:focus {
-    -webkit-box-shadow:0 0 10px #b8e069 inset; 
-    -moz-box-shadow:0 0 10px #b8e069 inset; 
-    box-shadow:0 0 10px #b8e069 inset;
+    -webkit-box-shadow:0 0 10px #5089e5 inset; 
+    -moz-box-shadow:0 0 10px #5089e5 inset; 
+    box-shadow:0 0 10px #5089e5 inset;
     outline: none;
 }
 #words > span {
@@ -142,16 +141,14 @@ dd {
     margin-right: 0.1em;
 }
 #currentword {
-    background: #b8e069;
     background: gray;
     border-radius: 5px;
 }
 .incorrect {
-    color: #c00;
     color: salmon;
 }
 .correct {
-    color: lightgreen;
+    color: #5089e5;
 }
 #currentword .correct {
     color: white;
@@ -182,7 +179,7 @@ dd {
 }
 #progress, #rawcpm, #cpm, #wpm, #timer {
     text-align: right;
-    background: white;
+    background: #444;
 }
 #score span#progress {
     min-width: 9ex;
