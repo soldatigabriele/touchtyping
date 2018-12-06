@@ -8,6 +8,8 @@
 <script src="jquery.caret.1.02.min.js"></script>
 <link rel=stylesheet type="text/css" href="style.css">
 
+<script src="words.js"></script>
+
 <script type="text/javascript">
 
 function ii($s) {
@@ -272,6 +274,7 @@ function thingWithWords($arg) {
 
 
 var $words = new Array('teeth','hats','senna','hut','stoat','eons','hate','hoot','eat','hos','shoe','sate','nun','eats','tat','hat','sauna','notes','use','shuts','hoses','hates','totes','huts','shunt','sots','stone','soon','shes','heat','tots','toes','nests','soot','onto','thus','toot','hosts','ones','oust','hue','tests','hues','sat','hen','nouns','uses','eon','sheet','hush','onus','tease','nose','shoot','ashen','host','noes','non','anus','hash','shoos','suns','tonne','tush','sense','stuns','noses','neon','oaths','shone','ants','ton','test','tutu','tunas','sun','oases','sees','aeons','ten','toast','thou','neath','hath','nth','henna','seats','ash','tones','set','sass','those','sates','oath','nous','out','tho','toe','south','sot');
+
 // Lesson 5
 var $words = new Array('condoms', 'humidifies', 'brainwash',
     'shamrock', 'oxidizing', 'whoppers', 'precautions', 'silkworms',
@@ -291,6 +294,9 @@ var $words = new Array('condoms', 'humidifies', 'brainwash',
     'edition', 'thunderclap', 'thrice', 'skywriter', 'recessing', 'detachable',
     'assiduousness', 'lumberyards', 'calibrating', 'demigod', 'deface', 'bauxite',
     'validating', 'disallowed', 'fakes', 'desert');
+
+// Generate random words
+var $words = words(50)
 
 
 var $tutor = new thingWithWords({  // I have a thing with words ;)
